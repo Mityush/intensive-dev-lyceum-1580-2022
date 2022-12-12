@@ -1,6 +1,6 @@
 def last(arr):
     if isinstance(arr, list) and len(arr) != 0:
-        return arr[len(arr)]
+        return arr[len(arr)-1]
     else: return 'none'
 
 def first(arr):
